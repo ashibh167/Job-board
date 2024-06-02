@@ -1,0 +1,173 @@
+.filter-form {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the space between elements */
+    max-width: 100%; /* Ensure the form fits the container */
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Adjust the space between label and input */
+}
+
+.filter-form label {
+    font-weight: bold;
+}
+
+.filter-form input[type="number"],
+.filter-form select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.filter-form input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filter-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.filter-form input[type="number"]:focus,
+.filter-form select:focus,
+.filter-form input[type="submit"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+/* Style the "Apply for this job" heading */
+#apply {
+    
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Apply basic styling to the form */
+#application-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* Style form labels */
+#application-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style form inputs */
+#application-form input[type="text"],
+#application-form input[type="email"],
+#application-form input[type="file"] {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Style form submit button */
+#application-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style form submit button on hover */
+#application-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style form submit button on focus */
+#application-form input[type="submit"]:focus {
+    outline: none;
+}
+
+/* Style error messages */
+.error-message {
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+
+/* Style entry header and title */
+.entry-header {
+    margin-bottom: 20px;
+}
+
+.entry-title {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+/* Style entry content */
+.entry-content {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Style custom meta fields */
+.entry-content p {
+    margin-bottom: 10px;
+}
+
+/* Style the job listings */
+ul li{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #e4e1e1;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+ul li a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+ul li a:hover {
+    color: #4CAF50;
+}
+
+ul li br {
+    display:grid; /* To avoid unnecessary line breaks */
+}
+
+ul li strong {
+    display: inline;
+    margin-top: 5px;
+    font-weight: normal;
+    color: #555;
+}
+
+ 
